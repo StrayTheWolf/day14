@@ -1,0 +1,135 @@
+.block-top{
+  background-color: #F4F9E2;
+}
+
+.header {
+
+  padding-top: 38px;
+  margin-top: 270px;
+  display: flex;
+  align-items: baseline;
+
+  @media (max-width: 940px) {
+
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+
+    font-size: 24px;
+    color: $font-sky-blue;
+    margin-left: 179px;
+    margin-right: 450px;
+
+    @media (max-width: 940px) {
+
+      margin-left: 35px;
+      margin-right: 0;
+    }
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+
+    align-items: flex-start;
+    list-style: none;
+  }
+
+  &__button {
+
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: $font-dark-blue;
+  }
+
+  .button{
+    background-color: $font-sky-blue;
+    border-radius: 50px;
+    margin-left: 320px;
+    font-size: 14px;
+    color: $font-white;
+    padding: 20px 30px 20px 30px;
+
+    @media (max-width: 940px) {
+
+      margin-left: 35px;
+    }
+  }
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  margin-left: 145px;
+  margin-bottom: 174px;
+}
+
+// основной контент
+
+.col-1-2 {
+
+  &__subtitle {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: 48px;
+    color: $font-dark-blue;
+
+    @media (max-width: 940px) {
+      margin-left: 30px;
+    }
+  }
+
+  &__content {
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: 24px;
+    color: $font-dark-blue;
+    margin-bottom: 63px;
+
+    @media (max-width: 940px) {
+      margin-left: 30px;
+    }
+  }
+
+  .btn {
+
+    font-size: 16px;
+    display: flex;
+    margin-left: 175px;
+
+    @media (max-width: 940px) {
+      margin-left: 30px;
+    }
+
+    &__action {
+
+      margin-right: 38px;
+      border: none;
+      padding: 10px 30px;
+      background-color: $btn-background-yellow;
+      color: $font-white;
+    }
+
+    &__action-transparent {
+
+      border: none;
+      background-color: transparent;
+      color: $btn-text;
+    }
+  }
+}
+.background{
+  position: absolute;
+}
+
+.photo{
+  margin-top: -200px;
+}
+
+
