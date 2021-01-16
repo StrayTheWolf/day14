@@ -1,11 +1,19 @@
 {
     "/dist/css/styles.css": "/dist/css/styles.css",
     "/dist/index.html": "/dist/index.html",
+    "/dist/images/block1.png": "/dist/images/block1.png",
+    "/dist/images/block2.svg": "/dist/images/block2.svg",
+    "/dist/images/block3.jpg": "/dist/images/block3.jpg",
+    "/dist/images/block4.png": "/dist/images/block4.png",
+    "/dist/images/block5.png": "/dist/images/block5.png",
+    "/dist/images/block6.png": "/dist/images/block6.png",
     "/dist/images/figma-logo.svg": "/dist/images/figma-logo.svg",
-    "/dist/images/line-shadow.svg": "/dist/images/line-shadow.svg",
     "/dist/images/figure-blue.svg": "/dist/images/figure-blue.svg",
-    "/dist/images/photo-sized.svg": "/dist/images/photo-sized.svg",
-    "/dist/images/photo.jpg": "/dist/images/photo.jpg",
+    "/dist/images/girl-image.jpg": "/dist/images/girl-image.jpg",
+    "/dist/images/line-shadow.svg": "/dist/images/line-shadow.svg",
+    "/dist/images/man-smile.jpg": "/dist/images/man-smile.jpg",
     "/dist/images/photo-sized.png": "/dist/images/photo-sized.png",
-    "/dist/images/girl-image.jpg": "/dist/images/girl-image.jpg"
+    "/dist/images/photo.jpg": "/dist/images/photo.jpg",
+    "/dist/images/you-should.jpg": "/dist/images/you-should.jpg",
+    "/dist/images/girl-contacts.jpg": "/dist/images/girl-contacts.jpg"
 }
