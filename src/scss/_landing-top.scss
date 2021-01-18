@@ -18,7 +18,7 @@
   &__title {
 
     font-size: 24px;
-    color: $font-sky-blue;
+    color: $color-sky-blue;
     margin-left: 179px;
     margin-right: 450px;
 
@@ -44,15 +44,15 @@
     margin-right: 10px;
     text-decoration: none;
     font-size: 14px;
-    color: $font-dark-blue;
+    color: $color-dark-blue;
   }
 
   .button{
-    background-color: $font-sky-blue;
+    background-color: $color-sky-blue;
     border-radius: 50px;
     margin-left: 320px;
     font-size: 14px;
-    color: $font-white;
+    color: $color-white;
     padding: 20px 30px 20px 30px;
 
     @media (max-width: 940px) {
@@ -78,7 +78,7 @@
     margin-top: 30px;
     margin-left: 180px;
     font-size: 48px;
-    color: $font-dark-blue;
+    color: $color-dark-blue;
 
     @media (max-width: 940px) {
       margin-left: 30px;
@@ -89,7 +89,7 @@
     margin-top: 30px;
     margin-left: 180px;
     font-size: 24px;
-    color: $font-dark-blue;
+    color: $color-dark-blue;
     margin-bottom: 63px;
 
     @media (max-width: 940px) {
@@ -112,15 +112,15 @@
       margin-right: 38px;
       border: none;
       padding: 10px 30px;
-      background-color: $btn-background-yellow;
-      color: $font-white;
+      background-color: $color-yellow;
+      color: $color-white;
     }
 
     &__action-transparent {
 
       border: none;
       background-color: transparent;
-      color: $btn-text;
+      color: $color-yellow;
     }
   }
 }

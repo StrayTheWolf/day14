@@ -7,7 +7,7 @@
 
   display: flex;
   margin-top: 120px;
-  background-color: $background-color-white;
+  background-color: $color-white;
 
 
   &__title{
@@ -15,7 +15,7 @@
     margin-left: 100px;
     margin-right: 225px;
     font-size: 16px;
-    color: $font-color-blue
+    color: $color-dark-blue
   }
 
   &__subtitle{
@@ -23,7 +23,7 @@
     font-size: 24px;
     margin-left: 140px;
     padding-right: 393px;
-    color: $font-color-blue;
+    color: $color-dark-blue;
   }
 }
 
@@ -32,46 +32,46 @@
 .col-1-4__block1{
 
   height: 360px;
-  background-color: $background-about-pink;
+  background-color: $color-pink;
 
   &-text{
     list-style-type: circle;
     padding: 126px 219px 282px 104px;
     margin: 0px;
     font-size: 24px;
-    color: $font-white;
+    color: $color-white;
   }
 }
 .col-1-4__block2{
   height: 360px;
-  background-color: $background-about-green;
+  background-color: $color-green;
 
   &-text{
     padding: 126px 219px 282px 104px;
     margin: 0px;
     font-size: 24px;
-    color: $font-white;
+    color: $color-white;
   }
 }
 .col-1-4__block3{
   height: 360px;
-  background-color: $background-about-lightblue;
+  background-color: $color-sku-blue;
 
   &-text{
     padding: 126px 219px 282px 104px;
     margin: 0px;
     font-size: 24px;
-    color: $font-white;
+    color: $color-white;
   }
 }
 .col-1-4__block4{
   height: 360px;
-  background-color: $background-about-blue;
+  background-color: $color-dark-blue;
 
   &-text{
     padding: 126px 219px 282px 104px;
     margin: 0px;
     font-size: 24px;
-    color: $font-white;
+    color: $color-white;
   }
 }

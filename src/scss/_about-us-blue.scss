@@ -1,6 +1,6 @@
 .col-1-2__man_text{
   width: 70%;
-  background-color: $background-color-darkblue;
+  background-color: $color-darkblue;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -9,24 +9,24 @@
 
   &__top{
     font-size: 16px;
-    color: $font-white;
+    color: $color-white;
     padding-bottom: 180px;
   }
 
   &__title{
     font-size: 64px;
-    color: $font-white;
+    color: $color-white;
 
   }
   &__subtitle{
     font-size: 36px;
-    color: $font-white;
+    color: $color-white;
     padding-right: 180px;
     padding-bottom: 40px;
   }
   &__bottom{
     font-size: 16px;
-    color: $font-sky-blue;
+    color: $color-sky-blue;
   }
 }
 

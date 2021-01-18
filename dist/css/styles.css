@@ -6,9 +6,6 @@ info top
 landing-top
 */
 /*
-blue-block
-*/
-/*
 about-us-block
 */
 /*
@@ -71,7 +68,7 @@ about-us-block
 }
 .links__content {
   font-size: 24px;
-  color: #1ABCFE;
+  color: #22356F;
 }
 @media (max-width: 940px) {
   .links {
@@ -195,7 +192,7 @@ about-us-block
   margin-right: 38px;
   border: none;
   padding: 10px 30px;
-  background-color: #F9B640;
+  background-color: #FAB63E;
   color: #FFFFFF;
 }
 .col-1-2 .btn__action-transparent {
@@ -300,7 +297,7 @@ about-us-block
 
 .col-1-4__block1 {
   height: 360px;
-  background-color: #FFE2DE;
+  background-color: #DEE1FF;
 }
 .col-1-4__block1-text {
   list-style-type: circle;
@@ -334,7 +331,7 @@ about-us-block
 
 .col-1-4__block4 {
   height: 360px;
-  background-color: #0052C1;
+  background-color: #22356F;
 }
 .col-1-4__block4-text {
   padding: 126px 219px 282px 104px;
