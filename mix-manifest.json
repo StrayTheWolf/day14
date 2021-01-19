@@ -1,4 +1,5 @@
 {
+    "/dist/css/styles.css": "/dist/css/styles.css",
     "/dist/index.html": "/dist/index.html",
     "/dist/images/block1.png": "/dist/images/block1.png",
     "/dist/images/block2.svg": "/dist/images/block2.svg",
@@ -14,6 +15,5 @@
     "/dist/images/man-smile.jpg": "/dist/images/man-smile.jpg",
     "/dist/images/photo-sized.png": "/dist/images/photo-sized.png",
     "/dist/images/photo.jpg": "/dist/images/photo.jpg",
-    "/dist/images/you-should.jpg": "/dist/images/you-should.jpg",
-    "/dist/css/styles.css": "/dist/css/styles.css"
+    "/dist/images/you-should.jpg": "/dist/images/you-should.jpg"
 }
