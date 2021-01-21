@@ -6,12 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kshitij Choudhary UI/UX Designer & Developer</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div class="container">
-    <div class="logo">
-        <img class="logo__image" src="images/figma-logo.svg" alt="Figma Logo">
+<div class="page-header">
+    <div class="page-header-logo">
+        <img class="page-header-logo__image" src="images/figma-logo.svg" alt="Figma Logo">
     </div>
 
     <div class="creator">
@@ -35,40 +40,46 @@
         </li>
     </div>
 
-    <p class="text-bottom">
-        If you like what I am doing , you can support me by following me on dribbble
-    </p>
+    <div class="text-bottom">
+        <p class="text-bottom__content">
+            If you like what I am doing , you can support me by following me on dribbble
+        </p>
+    </div>
+
 </div>
-<div class="block block-top">
-    <div class="container">
-        <div class="header">
+<div class="empty-space">
+    <div class="block-empty-space"></div>
+</div>
+<div class="site-content">
+    <div class="block-landing-top">
+        <div class="landing-header header">
             <div class="header__title">
                 Thrivetalk
             </div>
             <ul class="header__list">
-                <li class="header__item"><a href="" class="header__button">Home</a></li>
-                <li class="header__item"><a href="" class="header__button">About</a></li>
-                <li class="header__item"><a href="" class="header__button">Services</a></li>
-                <li class="header__item"><a href="" class="header__button">Blog</a></li>
+                <li class="header__item"><a href="" class="header__link-border">Home
+                    <div class="underline"></div>
+                </a>
+                </li>
+                <li class="header__item"><a href="" class="header__link">About</a></li>
+                <li class="header__item"><a href="" class="header__link">Services</a></li>
+                <li class="header__item"><a href="" class="header__link">Blog</a></li>
             </ul>
-            <div class="button">
+            <div class="header-button">
                 CONTACT US
             </div>
         </div>
-        <div class="line">
-            <img class="line__img" src="images/line-shadow.svg" alt="">
-        </div>
 
-        <div class="row">
-            <div class="col-1-2">
-                <div class="header__title">
+        <div class="landing-content">
+            <div class="landing-top-content">
+                <p class="landing-top-content__tagline">
                     Thrivetalk
-                </div>
-                <div class="col-1-2__subtitle">
+                </p>
+                <p class="landing-top-content__title">
                     HELPING YOU THRIVE <br>
                     IN ALL AREAS OF LIFE
-                </div>
-                <p class="col-1-2__content">
+                </p>
+                <p class="landing-top-content__subtitle">
                     Our highly talented therapists can help you with a range of issues including relationships, sex,
                     PTSD, depression, social anxiety, or even just caring for yourself more.
                 </p>
@@ -81,274 +92,250 @@
                     </button>
                 </div>
             </div>
-            <div class="col-1-2">
-                <div class="background">
-                    <img class="background_blue" src="" alt="">
-                </div>
-                <div class="photo">
-                    <img class="photo__image" src="images/photo-sized.png" alt="Фото африканского мальчика">
-                </div>
-            </div>
         </div>
+
+
     </div>
-</div>
-<div class="block blue-block">
-    <div class="container">
+    <div class="block-why-thrive">
         <div class="row">
-            <div class="col-1-2">
-                <div class="col-1-2__girl_text">
-                    <h1 class="col-1-2__girl_text__title">
+            <div class="why-thrive-left">
+                <div class="why-thrive-left__text">
+                    <h1 class="why-thrive-left__text__title">
                         Why Thrive?
                     </h1>
-                    <h2 class="col-1-2__girl_text__subtitle">
-                        <span class="col-1-2__girl_text__subtitle-large">Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist?</span>
-                        <span class="col-1-2__girl_text__subtitle-small">
+                    <h2 class="why-thrive-left__text__subtitle">
+                        <span class="why-thrive-left__text__subtitle-large">Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist?</span>
+                        <span class="why-thrive-left__text__subtitle-small">
                             Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk.  Start therapy now with a licensed therapist!
                         </span>
                     </h2>
                 </div>
 
             </div>
-            <div class="col-1-2">
-                <div class="col-1-2__girl_pic">
-                    <img src="images/girl-image.jpg" alt="Девушка тянет руки вверх">
+            <div class="why-thrive-right">
+                <div class="why-thrive-right__pic">
+                    <img class="why-thrive-right__pic__img" src="images/girl-image.jpg" alt="Девушка тянет руки вверх">
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="block about-us">
-    <div class="container">
-        <div class="about-us-content">
-            <h1 class="about-us-content__title">
-                ABOUT US
-            </h1>
-            <h2 class="about-us-content__subtitle">
-                We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a
-                mental wellness issue we’re here to help. Our highly talented therapists can help you with a range of issues
-                including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.
-            </h2>
+    <div class="block-about-us">
+        <div class="about-us-text">
+            <div class="about-us-title">
+                <p class="about-us-title__text">
+                    ABOUT US
+                </p>
+            </div>
+            <div class="about-us-subtitle">
+                <h2 class="about-us-subtitle__text">
+                    We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling
+                    with a
+                    mental wellness issue we’re here to help. Our highly talented therapists can help you with a range
+                    of issues
+                    including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself
+                    more.
+                </h2>
+            </div>
         </div>
-        <p class="about-us-bottom">
-            WE CAN HELP YOU WITH
-        </p>
+
+        <div class="about-us-text-foot">
+            <p class="about-us-text__bottom">
+                WE CAN HELP YOU WITH
+            </p>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-1-4">
-            <div class="col-1-4__block1">
-                <p class="col-1-4__block1-text">
+    <div class="block-about-us-section">
+        <div class="about-us-blocks">
+            <div class="about-blocks about-us-blocks__block1">
+                <div></div>
+                <p class="about-blocks-grid about-us-blocks__text">
                     Weight Lifting
                 </p>
             </div>
-        </div>
-        <div class="col-1-4">
-            <div class="col-1-4__block2">
-                <p class="col-1-4__block2-text">
-                    Running  & Spinning
+            <div class="about-blocks about-us-blocks__block2">
+                <p class="about-blocks-grid about-us-blocks__text">
+                    Running & Spinning
                 </p>
             </div>
-        </div>
-        <div class="col-1-4">
-            <div class="col-1-4__block3">
-                <p class="col-1-4__block3-text">
+            <div class="about-blocks about-us-blocks__block3">
+                <p class="about-blocks-grid about-us-blocks__text">
                     Pumping Iron
                 </p>
             </div>
-        </div>
-        <div class="col-1-4">
-            <div class="col-1-4__block4">
-                <p class="col-1-4__block4-text">
+            <div class="about-blocks about-us-blocks__block4">
+                <p class="about-blocks-grid about-us-blocks__text">
                     Pumping Iron
                 </p>
             </div>
         </div>
     </div>
-</div>
-<div class="block block-6-col">
-    <div class="row row-grid">
-        <div class="col-1-3 col-1-3-darkblue">
-            <div class="col-1-3__border">
-
-            </div>
-            <p class="col-1-3__title">
+    <div class="empty-space">
+        <div class="block-empty-space__white"></div>
+    </div>
+    <div class="block-doings">
+        <div class="doings-section doings-section-darkblue">
+            <p class="doings-section-grid doings-section__text">
                 Physical <br> Health
             </p>
         </div>
-        <div class="col-1-3 col-1-3-blue">
-            <div class="col-1-3__border">
-
-            </div>
-            <p class="col-1-3__title">
+        <div class="doings-section doings-section-blue">
+            <p class="doings-section-grid doings-section__text">
                 Mental <br> Health
             </p>
         </div>
-        <div class="col-1-3 col-1-3-img">
-                <p class="col-1-3__title">
-                    Nutrition
-                </p>
+        <div class="doings-section doings-section-image">
+            <p class="doings-section-grid doings-section__text">
+                Nutrition
+            </p>
         </div>
-        <div class="col-1-3 col-1-3-skyblue">
-            <div class="col-1-3__border">
-
-            </div>
-            <p class="col-1-3__title">
+        <div class="doings-section doings-section-skyblue">
+            <p class="doings-section-grid doings-section__text">
                 Gymnastics
             </p>
         </div>
-        <div class="col-1-3 col-1-3-pink">
-            <div class="col-1-3__border">
-
-            </div>
-            <p class="col-1-3__title">
+        <div class="doings-section doings-section-pink">
+            <p class="doings-section-grid doings-section__text">
                 Crossfit
             </p>
         </div>
-        <div class="col-1-3 col-1-3-purple">
-            <div class="col-1-3__border">
-
-            </div>
-            <p class="col-1-3__title">
+        <div class="doings-section doings-section-purple">
+            <p class="doings-section-grid doings-section__text">
                 Aerobics
             </p>
         </div>
     </div>
-</div>
-<div class="block block-6-white">
-    <div class="row">
-        <div class="col-1-3 col-1-3-blocks">
-            <div class="col-1-3-blocks__title">
+    <div class="block-training-description">
+        <div class="description-block">
+            <div class="description-block__title">
                 Nutritional Plans
             </div>
-            <div class="col-1-3-blocks__subtitle">
-                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
+            <div class="description-block__subtitle">
+                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                replace this copy.
             </div>
         </div>
-        <div class="col-1-3 col-1-3-blocks">
-            <div class="col-1-3-blocks__title">
+        <div class="description-block">
+            <div class="description-block__title">
                 Weight Loss
             </div>
-            <div class="col-1-3-blocks__subtitle">
-                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
+            <div class="description-block__subtitle">
+                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                replace this copy.
             </div>
         </div>
-        <div class="col-1-3 col-1-3-blocks">
-            <div class="col-1-3-blocks__title">
+        <div class="description-block">
+            <div class="description-block__title">
                 Mental Peace
             </div>
-            <div class="col-1-3-blocks__subtitle">
-                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
+            <div class="description-block__subtitle">
+                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                replace this copy.
             </div>
         </div>
-        <div class="col-1-3 col-1-3-blocks">
-            <div class="col-1-3-blocks__title">
+        <div class="description-block">
+            <div class="description-block__title">
                 Home Training
             </div>
-            <div class="col-1-3-blocks__subtitle">
-                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
+            <div class="description-block__subtitle">
+                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                replace this copy.
             </div>
         </div>
-        <div class="col-1-3 col-1-3-blocks">
-            <div class="col-1-3-blocks__title">
+        <div class="description-block">
+            <div class="description-block__title">
                 Work/Life Balance
             </div>
-            <div class="col-1-3-blocks__subtitle">
-                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
+            <div class="description-block__subtitle">
+                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                replace this copy.
             </div>
         </div>
-        <div class="col-1-3 col-1-3-blocks">
-            <div class="col-1-3-blocks__title">
+        <div class="description-block">
+            <div class="description-block__title">
                 Cardio
             </div>
-            <div class="col-1-3-blocks__subtitle">
-                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
+            <div class="description-block__subtitle">
+                Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                replace this copy.
             </div>
         </div>
     </div>
-</div>
-<div class="block block-you-should">
-    <div class="container">
-        <div class="row">
-            <div class="col-1-2 col-1-2__you-should">
-                <img class="col-1-2__you-should__pic__img" src="images/you-should.jpg"
-                     alt="Ты можешь знать, говорит мужчина в кресле">
-            </div>
-            <div class="col-1-2__you-should">
-                <div class="should-content">
-                    <h1 class="should-content__title">
-                        YOU SHOULD ALSO KNOW
-                    </h1>
-                    <h2 class="should-content__subtitle">
-                        MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age 18
-                        and older in a given year. We at ThriveTalk can help you.
-                    </h2>
-                    <p class="should-content__bottom">
-                        GET HELP NOW
-                    </p>
-                </div>
-            </div>
+    <div class="block-you-should">
+        <div class="you-should-left">
+            <img class="you-should__img" src="images/you-should.jpg"
+                 alt="Ты также должень знать, говорит мужчина в кресле">
         </div>
-    </div>
-</div>
-<div class="block about-us-blue">
-    <div class="container">
-        <div class="row">
-            <div class="col-1-2 col-1-2__man_text">
-                <p class="col-1-2__man_text__top">
-                    GET HELP NOW
-                </p>
-                    <h1 class="col-1-2__man_text__title">
-                        Ready. Set. Smile
-                    </h1>
-                    <h2 class="col-1-2__man_text__subtitle">
-                        Take the free online assessment to see if you are a candidate and get started on your journey.
-                    </h2>
-                <p class="col-1-2__man_text__bottom">
+        <div class="you-should-right">
+            <div class="should-content">
+                <h1 class="should-content__title">
+                    YOU SHOULD ALSO KNOW
+                </h1>
+                <h2 class="should-content__subtitle">
+                    MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age
+                    18
+                    and older in a given year. We at ThriveTalk can help you.
+                </h2>
+                <p class="should-content__bottom">
                     GET HELP NOW
                 </p>
             </div>
-            <div class="col-1-2 col-1-2__man">
-                <div class="col-1-2__man__pic">
-                    <img src="images/man-smile.jpg" alt="мужчина улыбается">
-                </div>
-            </div>
         </div>
     </div>
-</div>
-<div class="block info-block">
-    <div class="container">
+    <div class="block-smile">
+        <div class="smile-left">
+            <div class="smile-content">
+                <p class="smile-content__top">
+                    GET HELP NOW
+                </p>
+                <h1 class="smile-content__title">
+                    Ready. Set. Smile
+                </h1>
+                <h2 class="smile-content__subtitle">
+                    Take the free online assessment to see if you are a candidate and get started on your journey.
+                </h2>
+                <p class="smile-content__bottom">
+                    GET HELP NOW
+                </p>
+            </div>
+        </div>
+        <div class="smile-right">
+            <img class="smile-right__img" src="images/man-smile.jpg" alt="мужчина улыбается">
+        </div>
+    </div>
+    <div class="info-block">
         <div class="row">
-            <div class="col-1-4-info">
-                <div class="col-1-4-info__pic">
-                    <img class="col-1-4-info__pic__img" src="images/girl-contacts.jpg" alt="">
+            <div class="contacts-content">
+                <div class="contacts-left">
+                    <img class="contacts-left__img" src="images/girl-contacts.jpg" alt="">
                 </div>
-                <div class="col-1-4-info-text">
-                    <div class="col-1-4-info__col1">
-                        <h1 class="col-1-4-info__col1__title">
+                <div class="contacts-right">
+                    <div class="contacts-text">
+                        <h1 class="contacts-text__title">
                             SOME INFO
                         </h1>
-                        <h2 class="col-1-4-info__col1__subtitle">
+                        <h2 class="contacts-text__subtitle">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.
                         </h2>
                     </div>
-                    <div class="col-1-4-info__col2">
-                        <h1 class="col-1-4-info__col2__title">
+                    <div class="contacts-address">
+                        <h1 class="contacts-address__title">
                             ENFOLD HEALTH
                         </h1>
-                        <h2 class="col-1-4-info__col2__subtitle">
+                        <h2 class="contacts-address__subtitle">
                             Main Street 1, Olcott
                             Buffalo, United States
                             <br> <br>
                             +555 283 784 333
                         </h2>
-                        <a class="col-1-4-info__col2__link" href="">
+                        <a class="contacts-address__link" href="">
                             office@enfold-health.com
                         </a>
                     </div>
-                    <div class="col-1-4-info__col3">
-                        <h1 class="col-1-4-info__col3__title">
+                    <div class="contacts-work-hours">
+                        <h1 class="contacts-work-hours__title">
                             OFFICE HOURS
                         </h1>
-                        <h2 class="col-1-4-info__col3__subtitle">
+                        <h2 class="contacts-work-hours__subtitle">
                             Mo-Fr: 8:00-19:00
                             Sa: 8:00-14:00
                             Su: closed
@@ -358,12 +345,11 @@
             </div>
         </div>
     </div>
-
 </div>
-<div class="block block-footer">
-    <div class="container">
-        <p class="footer-info">
-            ©  Copyright - ThriveTalk  2017
+<div class="block-footer">
+    <div class="footer-content">
+        <p class="footer-content__text">
+            © Copyright - ThriveTalk 2017
         </p>
     </div>
 </div>

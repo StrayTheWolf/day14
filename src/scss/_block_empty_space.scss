@@ -1,0 +1,15 @@
+.block-empty-space {
+  display: flex;
+  height: 226px;
+  background-color: $color-gray-background;
+
+  @media (max-width: 940px) {
+    height: 100px;
+  }
+}
+
+.block-empty-space__white {
+  display: flex;
+  height: 100px;
+  background-color: $color-white;
+}

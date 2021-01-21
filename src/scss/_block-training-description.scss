@@ -1,0 +1,30 @@
+.block-training-description {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 940px) {
+    flex-direction: column;
+  }
+}
+
+.description-block {
+  height: 240px;
+  width: 33%;
+  @media (max-width: 940px) {
+    width: 100%;
+  }
+}
+
+.description-block__title {
+  margin-top: 60px;
+  margin-left: 105px;
+  margin-bottom: 28px;
+  font-size: 28px;
+}
+
+.description-block__subtitle {
+
+  font-size: 16px;
+  padding-right: 75px;
+  margin-left: 105px;
+
+}

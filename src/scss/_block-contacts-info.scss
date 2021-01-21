@@ -1,22 +1,34 @@
-.col-1-4-info{
-  width: 100%;
+.contacts-content{
   display: flex;
-  color: #22356f;
+  flex-wrap: wrap;
+  color: $color-dark-blue;
 
-  .col-1-4-info-text{
-    width: 60%;
+  @media (max-width: 940px) {
+    flex-direction: column;
+  }
+
+  .contacts-right{
+    width: 40%;
     display: flex;
     padding-top: 98px;
-    padding-left: 68px;
+    padding-left: 40px;
     line-height: 23px;
+    @media (max-width: 940px) {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 
-  .col-1-4-info__pic{
+  .contacts-left{
     display: flex;
-    flex-wrap: wrap;
-    width: 40%;
+    width: 55%;
+    @media (max-width: 940px) {
+      width: 100%;
+      justify-content: center;
+    }
   }
-  .col-1-4-info__col1{
+  .contacts-text{
     width: 33%;
 
     &__title{
@@ -28,7 +40,7 @@
       padding-right: 68px;
     }
   }
-  .col-1-4-info__col2{
+  .contacts-address{
     width: 33%;
 
     &__title{
@@ -43,7 +55,7 @@
       font-size: 14px;
     }
   }
-  .col-1-4-info__col3{
+  .contacts-work-hours{
     width: 33%;
 
     &__title{

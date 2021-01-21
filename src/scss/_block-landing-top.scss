@@ -1,13 +1,23 @@
-.block-top{
-  background-color: #F4F9E2;
+.landing-content-background {
+  display: flex;
+  justify-content: right;
 }
+
+.block-landing-top {
+  background-color: $color-light-yellow
+}
+
+.landing-header {
+  padding-top: 35px;
+}
+
+//Верхний блок начало
 
 .header {
 
-  padding-top: 38px;
-  margin-top: 270px;
   display: flex;
   align-items: baseline;
+
 
   @media (max-width: 940px) {
 
@@ -19,13 +29,13 @@
 
     font-size: 24px;
     color: $color-sky-blue;
-    margin-left: 179px;
-    margin-right: 450px;
+    margin: 0px 450px 180px 180px;
 
     @media (max-width: 940px) {
 
       margin-left: 35px;
       margin-right: 0;
+      margin-bottom: 25px;
     }
   }
 
@@ -37,20 +47,32 @@
 
     align-items: flex-start;
     list-style: none;
+    padding-right: 10px;
   }
 
-  &__button {
+  &__link {
 
-    margin-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: $color-dark-blue;
+
+  }
+
+  .header__link-border {
     text-decoration: none;
     font-size: 14px;
     color: $color-dark-blue;
   }
 
-  .button{
+  .underline {
+    border-bottom: 2px solid $color-dark-blue;
+    padding-bottom: 10px;
+  }
+
+  .header-button {
     background-color: $color-sky-blue;
     border-radius: 50px;
-    margin-left: 320px;
+    margin-left: 400px;
     font-size: 14px;
     color: $color-white;
     padding: 20px 30px 20px 30px;
@@ -62,30 +84,51 @@
   }
 }
 
-.line{
+.header-button-underline {
   display: flex;
   justify-content: center;
   margin-left: 145px;
   margin-bottom: 174px;
 }
 
-// основной контент
+//Верхний блок конец
 
-.col-1-2 {
 
-  &__subtitle {
+// основной контент начало
+
+
+.landing-content {
+  display: flex;
+
+}
+
+.landing-top-content {
+
+  width: 100%;
+
+  &__tagline {
+    font-size: 24px;
+    color: #62D0DF;
+    margin-left: 179px;
+    margin-right: 450px;
+    @media (max-width: 940px) {
+      margin-left: 35px;
+    }
+  }
+
+
+  &__title {
     font-weight: bold;
     margin-top: 30px;
     margin-left: 180px;
     font-size: 48px;
     color: $color-dark-blue;
-
     @media (max-width: 940px) {
-      margin-left: 30px;
+      margin-left: 35px;
     }
   }
 
-  &__content {
+  &__subtitle {
     margin-top: 30px;
     margin-left: 180px;
     font-size: 24px;
@@ -93,7 +136,7 @@
     margin-bottom: 63px;
 
     @media (max-width: 940px) {
-      margin-left: 30px;
+      margin-left: 35px;
     }
   }
 
@@ -102,6 +145,7 @@
     font-size: 16px;
     display: flex;
     margin-left: 175px;
+    margin-bottom: 25px;
 
     @media (max-width: 940px) {
       margin-left: 30px;
@@ -124,12 +168,6 @@
     }
   }
 }
-.background{
-  position: absolute;
-}
 
-.photo{
-  margin-top: -200px;
-}
-
+// основной контент конец
 

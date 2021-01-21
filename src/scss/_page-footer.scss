@@ -1,0 +1,21 @@
+.footer-content__text{
+  height: 45px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: $color-white;
+  padding-top: 32px;
+  padding-left: 194px;
+
+  @media (max-width: 940px) {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+.footer-content{
+  background-color: $color-sky-blue;
+}
